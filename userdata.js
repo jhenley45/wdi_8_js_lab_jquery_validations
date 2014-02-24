@@ -8,14 +8,7 @@ $(document).ready(function(){
     phone_error,
     email_error;
 
-    $('span').hide();
-
-  name_error = $('#user_name_error');
-  age_error = $('#user_age_error');
-  phone_error = $('#user_ph_error');
-  email_error = $('#user_email_error');
-
-
+  $('span').hide();
 
   $('#add_user_data').submit(function(event) {
     //Set errors equal to false
